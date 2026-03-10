@@ -6,16 +6,22 @@
     <title>Document</title>
 </head>
 <body>
-  <div id="persegi">
-
-  </div>
+  <div id="persegi"></div>
+  <div id="bujur"></div>
 </body>
 <script>
+    //persegi
     const panjang = 25;
     const lebar = 10;
     let luaspersegi = panjang * lebar;
     let hasilpersegi = document.getElementById('persegi');
     hasilpersegi.innerHTML = 
     `<p>luaspersegi = ${luaspersegi} </p> `;
+    //bujur sangkar
+    const sisi = 15;
+    let luasbujursangkar = sisi * sisi;
+    let hasilbujursangkar = document.getElementById('bujur');
+    hasilbujursangkar.innerHTML = 
+    `<p>luas bujur sangkar = ${luasbujursangkar}</p>`;
 </script>
 </html>
