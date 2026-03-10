@@ -8,6 +8,7 @@
 <body>
   <div id="persegi"></div>
   <div id="bujur"></div>
+  <div id="segitiga"></div>
 </body>
 <script>
     //persegi
@@ -23,5 +24,12 @@
     let hasilbujursangkar = document.getElementById('bujur');
     hasilbujursangkar.innerHTML = 
     `<p>luas bujur sangkar = ${luasbujursangkar}</p>`;
+    //segitiga
+    const tinggi = 10;
+    const alas = 15;
+    let luassegitiga = 0.5 * alas * tinggi;
+    let hasilsegitiga = document.getElementById('segitiga');
+    hasilsegitiga.innerHTML = 
+    `<p>luas segitiga = ${luassegitiga}</p>`;
 </script>
 </html>
